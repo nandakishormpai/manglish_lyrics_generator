@@ -50,10 +50,32 @@ def lyrics_scrap():
             if writer : lyrics = lyrics.replace(next(iter(writer)).getText(),"")
             text_file = open("data/try/"+str(song_num)+".txt", "w")
             song_num+=1
-            n = text_file.write(lyrics)
+            text_file.write(lyrics)
             text_file.close()
+
+def missed_movies():
+    with open("data/dataset.csv", "r") as ifile:
+        reader = csv.reader(ifile)
+        song_num=0
+        links =[]
+        text_file = open("data/missed_movies.txt", "w")
+        for i,csv_row in enumerate(reader):
+            if(csv_row[2] in links): continue
+            else: links.append(csv_row[2])
+            res = requests.get(csv_row[2])
+            noStarchSoup = bs4.BeautifulSoup(res.text, "html.parser")
+            table = noStarchSoup.findAll("table", {"id": "tbllyrics"})
+            rows = next(iter(table))
+            row = next(iter(rows))
+            cells = row.findAll('td')
+            lyricsless = cells[0].findAll('script')
+            if(lyricsless):
+                text_file.write(csv_row[0] +" "+ csv_row[1]+" lyrics \n")
+                continue
+        text_file.close()
+
             
 
 
 if __name__ == "__main__":
-    lyrics_scrap()
+    missed_movies()
