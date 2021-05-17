@@ -34,42 +34,54 @@
     margin-bottom: 150px;
 }
 
-
-/* .button1 {
+.middle .button1 {
     display: flex;
-    padding: 10px 10px;
-    font-size: 24px;
+    padding: 8px 8px;
+    font-size: 20px;
     cursor: pointer;
     text-decoration: none;
     outline: none;
     color: #fff;
     background-color: #ec1010;
+    margin-right: 150px;
+    margin-top: 20px;
     border: none;
-    margin-left: 150px;
     border-radius: 15px;
     box-shadow: 0 9px rgb(179, 102, 102);
 }
 
-.button2 {
+.middle .button2 {
     display: flex;
-    padding: 10px 10px;
-    font-size: 24px;
+    padding: 3px 8px;
+    font-size: 20px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
     color: #fff;
+    margin-top: -35px;
+    margin-left: 150px;
     background-color: #ec1010;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px rgb(179, 102, 102);
 }
 
-.container .middle .button:hover {
+.middle .button1:hover {
     background-color: #ec1010;
-} */
+}
 
-.container .middle .button:active {
+.middle .button2:hover {
+    background-color: #ec1010;
+}
+
+.middle .button1:active {
+    background-color: #ec1010;
+    box-shadow: 0 5px rgb(153, 67, 67);
+    transform: translateY(4px);
+}
+
+.middle .button2:active {
     background-color: #ec1010;
     box-shadow: 0 5px rgb(153, 67, 67);
     transform: translateY(4px);
