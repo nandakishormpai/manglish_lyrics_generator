@@ -5,14 +5,17 @@ import pickle
 
 app = Flask("manglish_lyrics_generation")
 
-@app.route('/', methods=['POST'])
+@app.route('/', methods=['GET'])
 def predict():
     model = Model()
     lyrics = generate(model)
     response = {
         "lyrics": lyrics
     }
-    return jsonify(response)
+    #print(response.lyrics)
+    response = jsonify(response)
+    response.headers.add("Access-Control-Allow-Origin", "*")
+    return response
 
 
 
