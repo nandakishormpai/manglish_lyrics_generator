@@ -25,8 +25,10 @@
             <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </p>
-            <button class="button1">Generate Text</button>
-            <button class="button2">clear</button>
+            <button class="button1" onclick="myFunction()">Generate Text</button>
+            <button class="button2" onClick="window.location.reload();">clear</button>
+            <p></p>
+            <p id="demo"></p>
         </div>
 
         <div class="right">
@@ -34,9 +36,6 @@
                 <img src="images/1.png" />
             </div>
         </div>
-
-
-        <p id="demo"></p>
     </div>
     <script>
         var obj = JSON.parse('{ "name":"John", "age":30, "city":"New York"}');
