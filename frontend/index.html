@@ -38,10 +38,19 @@
         </div>
     </div>
     <script>
-        var obj = JSON.parse('{ "name":"John", "age":30, "city":"New York"}');
+        let jsondata;
+        fetch("https://jsonplaceholder.typicode.com/todos/1").then(
+            function(u) {
+                return u.json();
+            }
+        ).then(
+            function(json) {
+                jsondata = json;
+            }
+        )
 
         function myFunction() {
-            document.getElementById("demo").innerHTML = obj.name + ", " + obj.age;
+            document.getElementById("demo").innerHTML = jsondata.title;
         }
     </script>
 </body>
