@@ -1,0 +1,91 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* body {
+    background-image: url("background.jpg");
+    opacity: 0.3;
+} */
+
+.container .left {
+    margin-left: 30px;
+    justify-self: left;
+}
+
+.container .left .github-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.container .left .github-links img {
+    margin-bottom: 30px;
+}
+
+.container .middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+
+/* .button1 {
+    display: flex;
+    padding: 10px 10px;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ec1010;
+    border: none;
+    margin-left: 150px;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(179, 102, 102);
+}
+
+.button2 {
+    display: flex;
+    padding: 10px 10px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ec1010;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(179, 102, 102);
+}
+
+.container .middle .button:hover {
+    background-color: #ec1010;
+} */
+
+.container .middle .button:active {
+    background-color: #ec1010;
+    box-shadow: 0 5px rgb(153, 67, 67);
+    transform: translateY(4px);
+}
+
+.container .right {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.container .right .logo .img {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    padding: 2px;
+    max-width: 50%;
+    height: auto;
+}
