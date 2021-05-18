@@ -87,7 +87,5 @@ def generate(model,next_words=150):
     lyrics = lyrics.replace("<EOL>","\n")
 
     words_file.close()
-
-    print(lyrics)
     # returning as a string
     return lyrics
