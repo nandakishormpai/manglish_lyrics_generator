@@ -5,7 +5,7 @@ Adutha veettile karutha penne meenaakshi meenaakshi
 aaluvaa manappurathe thathem theyyum thathem theyyum
 thathem theyyum thathem theyyum
 thathem theyyum thathem theyyum
-thathem theyyum ..
+thathem theyyum 
 
 Pammi pammi vanne kammithinnu ninne
 Kallakkannanaayavanaaraadaa
@@ -38,7 +38,7 @@ alayukayaay veruthe thunayaruliya
 ennum nanmakalalle
 ee mannin thanalukalalle
 ulakiniyoru tharavaadaanalle
-(Pammi pammi..)
+( Pammi pammi )
 
 Etho nilaavil karanjenkilum
 aaro kalanju poya paithalaay
@@ -49,4 +49,4 @@ pathivaane oro umma
 nunayuka nee maname oli vithariya
 thankasooryanumunde ee vellithinkalumunde
 sukhaminiyoru nidhi polaanalle
-(Pammi pammi..)		
+( Pammi pammi )

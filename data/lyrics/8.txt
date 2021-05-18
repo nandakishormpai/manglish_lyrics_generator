@@ -4,7 +4,7 @@ evide poyithedee penne engine poyithedee
 njaanonnum kandillallo
 njaanonnum kettillallo
 kannonnu thurakkana neram
-kaanaathaayallo ponne kaanaathaayallo...
+kaanaathaayallo ponne kaanaathaayallo 
 
 anthyaanan kunninu thaazhe
 arayaalile kuruvikalevide
@@ -13,12 +13,12 @@ kulirevide kulirevide
 njaanavide koyyaan poyee
 kathirkatta methikkaan poyee
 naduvonnu nivarthana neram
-kaanaathaayallo ponne kaanaathaayallo...
+kaanaathaayallo ponne kaanaathaayallo 
 
-thaane thannaano..aa ponne
-thaane thanathinno..
+thaane thannaano aa ponne
+thaane thanathinno 
 thaane thanthaanam ponne
-thanathinnam thaano...
+thanathinnam thaano 
 
 arayolam vellam nirayum
 cheruthottile paralmeenevide
@@ -27,7 +27,7 @@ kodiminnalthaaliyumevide
 njaanonnu kulikkaan poyee
 murumundu nanakkaan poyee
 mudi kothikkerum neram kaanaathaayallo
-ah ponne kaanaathaayallo...
+ah ponne kaanaathaayallo 
 
 aayilyam kaavum malayum
 athiraani puzhayude kadavum
@@ -35,4 +35,4 @@ evide poyithedee penne engine poyithedee
 njaanonnum kandillallo
 njaanonnum kettillallo
 kannonnu thurakkana neram
-kaanaathaayallo ponne kaanaathaayallo...		
+kaanaathaayallo ponne kaanaathaayallo

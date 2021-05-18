@@ -15,7 +15,7 @@ shruthiyidum thampuruvil
 premakokilangal paadumenteyullil
 poroo neeyen chirakaayi
 oru manassaayiniyum
-ee swapnamanchangalil ...
+ee swapnamanchangalil 
 mazhayazhake pranayadalam pulkaamo
 ithuvazhiyinamukile peyyaamo
 
@@ -36,4 +36,4 @@ poya nilaave ini varumo
 jaalakavaathilil nin mukhamo
 iruhridayam oru kiliyaay kurukaamo
 mazhayazhake pranayadalam pulkaamo
-ithuvazhiyinamukile peyyaamo .....		
+ithuvazhiyinamukile peyyaamo

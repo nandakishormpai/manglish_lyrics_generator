@@ -1,10 +1,10 @@
 Enithonnum arinjatheyille
-punnaarappoonkuyile ..
+punnaarappoonkuyile 
 
 Eneno neneno neneneno
 eneno neneno neneneno
 eneno neneno neneno neneno
-eno eno neneno...
+eno eno neneno 
 
 Enundodee ambili chantham
 enundodee thaamara chantham
@@ -21,7 +21,7 @@ kaattu moolanu karivala vendennu
 enthinaavo ethinaavo
 enithonnum arinhatheyille
 panchaarappoonkuyile
-(enundodee)
+( enundodee )
 
 Kocharimulla thakkam parayanu
 kaarmudi chutte poovonnu kettaannu
@@ -30,4 +30,4 @@ melu vaasana thailam purattaannu
 enthinaavo ethinaavo
 neeyee marimaayamellaam arinjittum
 mindaathe nikkaanalle
-(Enundodee)		
+( Enundodee )
