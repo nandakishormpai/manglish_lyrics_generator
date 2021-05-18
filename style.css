@@ -23,21 +23,47 @@ footer{
     position: fixed;
     left: 2vw;
     bottom: 40%;
-    width: 10%;
+    width: 4vw;
 }
 .icon{
     width:3vw;
     margin: 1vh 0vw;
+    border-radius: 100%;
+    border: 5px solid rgb(255, 0, 200);
+}
+
+.icon:hover{
+    box-shadow: -0.2vh 0.2vw rgba(90, 4, 71, 0.8);
 }
 
 h1,h2,p{
     text-align: center;
+    
+}
+
+h1{
+    font-size: 3.5vw;
+    font-family: 'Expletus Sans', cursive;
+    margin-bottom: 0.2vh;
+}
+
+h2{
+    font-size: 2vw;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+}
+.description{
+    font-size: 1.5vw;
+}
+
+h2,.description{
+    font-family: 'Hind Guntur', sans-serif;
 }
 
 .description{
-    width: 55%;
-    margin-left: 22.5%;
-    margin-right: 22.5%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 .buttons{
     display: flex;
@@ -47,6 +73,7 @@ h1,h2,p{
 
 
 .button1,.button2{
+    font-weight: 700;
     margin-right: 1.5vw;
     padding: 3px 8px;
     font-size: 20px;
@@ -96,15 +123,17 @@ h1,h2,p{
     width: 60%;
     margin: auto;
     margin-top: 10vh;
-    overflow-y: scroll;
-    overflow-x:hidden;
-    scrollbar-color: rebeccapurple green;
-    scrollbar-width: thin;
+    background-color: rgba(235, 163, 219, 0.8);
+    display: none;
+    border-radius: 1vw;
 }
 
+
 .lyrics{
+    font-size: 1.4vw;
+    font-family: 'Hind', sans-serif;
     margin-right:20%;
-    padding-left: 1vw;
+    padding: 4vh 1.5vw;
     overflow-x: auto;
     white-space: pre-wrap;
     white-space: -moz-pre-wrap;
@@ -114,21 +143,3 @@ h1,h2,p{
 }
 
 
-
-.scroller::-webkit-scrollbar-track {
-    border: 1px;
-    border-radius: 10px;
-}
-
-.scroller::-webkit-scrollbar-thumb {
-    background: rgb(83, 171, 243);
-    border-radius: 10px;
-}
-
-.scroller::-webkit-scrollbar-thumb:hover {
-    background: #106083;
-}
-
-.scroller::-webkit-scrollbar {
-    width: 10px;
-}
