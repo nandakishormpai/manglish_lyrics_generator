@@ -27,6 +27,16 @@
     margin-bottom: 30px;
 }
 
+img:hover {
+    background-color: #ffffff;
+}
+
+img:active {
+    background-color: #ffffff;
+    box-shadow: 0 5px #ffffff;
+    transform: translateY(4px);
+}
+
 .container .middle {
     display: flex;
     flex-direction: column;
