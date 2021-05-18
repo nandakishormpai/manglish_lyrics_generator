@@ -13,13 +13,8 @@
     background-attachment: fixed;
     }
 
-.right{
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    right: 2vw;
-    bottom: 40%;
-    width: 10%;
+footer{
+    margin-top: 10vh;
 }
 
 .left{
@@ -39,39 +34,20 @@ h1,h2,p{
     text-align: center;
 }
 
-.description,.lyrics{
-    width: 50%;
-    margin-left: 25%;
+.description{
+    width: 55%;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
 }
-
-.lyrics{
-    margin-right:25%;
-}
-.button1{
+.buttons{
+    display: flex;
     margin-left: 40%;
-}
-.button2{
-    margin-left: 50%;
+    margin-top: 1vh;
 }
 
-.middle .button1 {
-    display: flex;
-    padding: 8px 8px;
-    font-size: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: #ec1010;
-    margin-right: 150px;
-    margin-top: 20px;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px rgb(179, 102, 102);
-}
 
-.middle .button2 {
-    display: flex;
+.button1,.button2{
+    margin-right: 1.5vw;
     padding: 3px 8px;
     font-size: 20px;
     cursor: pointer;
@@ -79,7 +55,7 @@ h1,h2,p{
     text-decoration: none;
     outline: none;
     color: #fff;
-    margin-top: -35px;
+    margin-top: 2vh;
     background-color: #ec1010;
     border: none;
     border-radius: 15px;
@@ -108,6 +84,7 @@ h1,h2,p{
     transform: translateY(4px);
 }
 
+
 .container .right {
     display: flex;
     flex-direction: column;
@@ -116,13 +93,27 @@ h1,h2,p{
 
 
 .scroller {
-    width: 100%;
-    height: 150px;
+    width: 60%;
     margin: auto;
+    margin-top: 10vh;
     overflow-y: scroll;
+    overflow-x:hidden;
     scrollbar-color: rebeccapurple green;
     scrollbar-width: thin;
 }
+
+.lyrics{
+    margin-right:20%;
+    padding-left: 1vw;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+
 
 .scroller::-webkit-scrollbar-track {
     border: 1px;
