@@ -1,6 +1,5 @@
-bs4
-pandas
-torch-1.8.1-cp39-cp39-win_amd64.whl
+-f https://download.pytorch.org/whl/torch_stable.html                                                                                                                                                             
+torch==1.8.0+cpu
 numpy
 flask==2.0.0
 seaborn

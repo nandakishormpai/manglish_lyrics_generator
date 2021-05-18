@@ -1,7 +1,6 @@
-from numpy import result_type
-from flask import Flask,request,jsonify
+from flask import Flask,jsonify
 from model_files.ml_predict import generate,Model
-import pickle
+
 
 app = Flask("manglish_lyrics_generation")
 
@@ -12,7 +11,6 @@ def predict():
     response = {
         "lyrics": lyrics
     }
-    #print(response.lyrics)
     response = jsonify(response)
     response.headers.add("Access-Control-Allow-Origin", "*")
     return response
