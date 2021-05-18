@@ -12,7 +12,7 @@ class Model(nn.Module):
         # Defining lstm parameters
         self.lstm_size = 128
         self.embedding_dim = 128
-        self.num_layers = 3
+        self.num_layers = 2
 
         # Loading Corpus 
         words_file = open("model_files/data/words.txt","r")
@@ -49,7 +49,7 @@ class Model(nn.Module):
 
 # to avoid gradients update
 @torch.no_grad()
-def generate(model,next_words=150):
+def generate(model,next_words=100):
 
     # loading lyrics corpus
     words_file = open("model_files/data/words.txt","r")
@@ -72,7 +72,7 @@ def generate(model,next_words=150):
     with open('model_files/data/index_to_word.json', 'rb') as iw:
         index_to_word = pickle.load(iw)
 
-    # for loop to generate lyrics with 150 words
+    # for loop to generate lyrics with 100 words
     for i in range(0, next_words):
         x = torch.tensor([[word_to_index[w] for w in words[i:]]])
         y_pred, (state_h, state_c) = loaded_model(x, (state_h, state_c))
