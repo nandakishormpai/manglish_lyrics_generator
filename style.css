@@ -1,47 +1,57 @@
-.container {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    justify-items: center;
-    align-items: center;
-    min-height: 100vh;
-}
+.bg {
+    /* The image used */
+    background-image: url("images/covernew.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    }
 
-
-/* body {
-    background-image: url("background.jpg");
-    opacity: 0.3;
-} */
-
-.container .left {
-    margin-left: 30px;
-    justify-self: left;
-}
-
-.container .left .github-links {
+.right{
     display: flex;
     flex-direction: column;
-    margin-top: -110px;
+    position: fixed;
+    right: 2vw;
+    bottom: 40%;
+    width: 10%;
 }
 
-.container .left .github-links img {
-    margin-bottom: 30px;
-}
-
-img:hover {
-    background-color: #ffffff;
-}
-
-img:active {
-    background-color: #ffffff;
-    box-shadow: 0 5px #ffffff;
-    transform: translateY(4px);
-}
-
-.container .middle {
+.left{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-bottom: 150px;
+    position: fixed;
+    left: 2vw;
+    bottom: 40%;
+    width: 10%;
+}
+.icon{
+    width:3vw;
+    margin: 1vh 0vw;
+}
+
+h1,h2,p{
+    text-align: center;
+}
+
+.description,.lyrics{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.lyrics{
+    margin-right:25%;
+}
+.button1{
+    margin-left: 40%;
+}
+.button2{
+    margin-left: 50%;
 }
 
 .middle .button1 {
@@ -70,12 +80,13 @@ img:active {
     outline: none;
     color: #fff;
     margin-top: -35px;
-    margin-left: 150px;
     background-color: #ec1010;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px rgb(179, 102, 102);
 }
+
+
 
 .middle .button1:hover {
     background-color: #ec1010;
@@ -103,14 +114,6 @@ img:active {
     align-self: flex-start;
 }
 
-.container .right .logo img {
-    position: absolute;
-    margin-top: 10px;
-    right: 40px;
-    padding: 2px;
-    max-width: 50%;
-    height: auto;
-}
 
 .scroller {
     width: 100%;
@@ -132,7 +135,7 @@ img:active {
 }
 
 .scroller::-webkit-scrollbar-thumb:hover {
-    background: #26a4df;
+    background: #106083;
 }
 
 .scroller::-webkit-scrollbar {
