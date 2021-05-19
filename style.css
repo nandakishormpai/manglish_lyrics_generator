@@ -76,6 +76,7 @@ body {
         margin-right: 25%;
     }
     .buttons{
+        outline: none;
         display: flex;
         margin-left: 40%;
         margin-top: 1vh;
@@ -209,6 +210,7 @@ body {
         margin-right: 10%;
     }
     .buttons{
+        outline: none;
         display: flex;
         margin-left: 20%;
         width: 60%;
@@ -274,6 +276,7 @@ body {
 
 
     .lyrics{
+        
         line-height: 1.4;
         font-size: 4vw;
         font-family: 'Hind', sans-serif;
