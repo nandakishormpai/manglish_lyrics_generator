@@ -1,3 +1,4 @@
+import torch
 from torch import nn, optim
 from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt
@@ -14,7 +15,7 @@ def train(dataset, model):
     #defining loss and optimizer
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=0.001)
-    num_of_epochs = 100
+    num_of_epochs = 3
     
     # Declare lists to store the respective values, inorder to plot graphs later
     epochs = []
@@ -48,7 +49,7 @@ def train(dataset, model):
         epochs.append(epoch)
         losses.append((tot_loss/cnt))
         print("epoch = {}  loss = {}".format(epoch, (tot_loss/cnt)))
-
+    torch.save(model.state_dict(), "data/manglish_model.pth")
     # Plot a Loss vs Epochs graph 
     plt.plot(epochs, losses, color='green', linewidth = 3, 
          marker='o', markerfacecolor='blue', markersize=8) 

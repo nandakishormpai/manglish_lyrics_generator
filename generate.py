@@ -10,7 +10,7 @@ from model import Model
 def generate(model,next_words=100):
 
     # loading lyrics corpus
-    words_file = open("model_files/data/words.txt","r")
+    words_file = open("data/words.txt","r")
     words = words_file.read().split(" ")
 
     # randomly choosing 3 consecutive words from corpus of lyrics
@@ -23,16 +23,16 @@ def generate(model,next_words=100):
 
     #loading model
     loaded_model = model
-    loaded_model.load_state_dict(torch.load("model_files/manglish_model.pth"))
+    loaded_model.load_state_dict(torch.load("data/manglish_model.pth"))
     loaded_model.eval()
     words = text.split(' ')
 
     state_h, state_c = model.init_state(3)
 
     # Loading dictionaries for word to index and vice versa 
-    with open('model_files/data/word_to_index.json', 'rb') as wi:
+    with open('data/word_to_index.json', 'rb') as wi:
         word_to_index = pickle.load(wi)
-    with open('model_files/data/index_to_word.json', 'rb') as iw:
+    with open('data/index_to_word.json', 'rb') as iw:
         index_to_word = pickle.load(iw)
 
     #to generate lyrics with 100 words
