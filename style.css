@@ -3,7 +3,7 @@ body {
     padding: 0;
     width: 100%;
     background-size: 400% 400%;
-    background: #c97b84;;
+    background: #d89fa5;;
     animation: mymove 10s linear infinite;
 }
 
@@ -35,14 +35,15 @@ body {
         width: 4vw;
     }
     .icon{
-        width:3vw;
+        width:3.5vw;
         margin: 1vh 0vw;
         border-radius: 100%;
-        border: 0.3vw solid rgba(18, 31, 75,0.7);
+        box-shadow:  3px 3px 5px rgba(3, 29, 23, 0.5);
+        
     }
 
     .icon:hover{
-        box-shadow: -0.1vh 0.1vw rgba(71, 4, 57, 0.8);
+        box-shadow:  3px 3px 15px rgba(3, 29, 23, 0.5);
     }
 
     h1,h2,p{
@@ -102,10 +103,13 @@ body {
         background-color: #101d42;
         border: none;
         border-radius: 15px;
-        box-shadow: 3px 3px 30px rgba(3, 29, 23, 0.4);
+        box-shadow: 3px 3px 10px rgba(3, 29, 23, 0.4);
     }
 
 
+    .button1:hover,.button2:hover {
+        box-shadow: 3px 3px 25px rgba(3, 29, 23, 0.4);
+    }
 
     .button1:active,.button2:active {
         transform: translateY(4px);
@@ -154,11 +158,11 @@ body {
         width:8vw;
         margin-left: 2vw;
         border-radius: 100%;
-        border: 0.4vw solid rgba(18, 31, 75,0.7);
+        box-shadow:  3px 3px 10px rgba(3, 29, 23, 0.5);
     }
 
     .icon:hover{
-        box-shadow: -0.2vh 0.2vw rgba(71, 4, 57, 0.8);
+        box-shadow:  3px 3px 30px rgba(3, 29, 23, 0.5);
     }
 
     h1,h2,p{
@@ -214,7 +218,11 @@ body {
         background-color: #101d42;
         border: none;
         border-radius: 5vw;
-        box-shadow: 3px 3px 30px rgba(3, 29, 23, 0.4);
+        box-shadow: 3px 3px 10px rgba(3, 29, 23, 0.4);
+    }
+
+    .button1:hover,.button2:hover {
+        box-shadow: 3px 3px 25px rgba(3, 29, 23, 0.4);
     }
 
     .button1:active,.button2:active {
