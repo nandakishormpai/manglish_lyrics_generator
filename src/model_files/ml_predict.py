@@ -57,8 +57,12 @@ def generate(model,next_words=100):
 
     # randomly choosing 3 consecutive words from corpus of lyrics
     # for lyrics generation
-    n = random.randint(0,len(words))
-    text = " ".join(words[n:n+3])
+    while True:
+        n = random.randint(0,len(words))
+        text = " ".join(words[n:n+3])
+        if("<EOL>" not in text and "(" not in text and ")" not in text):
+            break
+
     loaded_model = model
     loaded_model.load_state_dict(torch.load("model_files/manglish_model.pth"))
     loaded_model.eval()
@@ -85,7 +89,14 @@ def generate(model,next_words=100):
     lyrics = " ".join(words)
     # formatting the lyrics
     lyrics = lyrics.replace(" <EOL> ","\n")
+    lyrics = lyrics.replace("<EOL> ","\n")
+    lyrics = lyrics.replace(" <EOL>","\n")
 
     words_file.close()
     # returning as a string
     return lyrics
+
+if __name__ == "__main__":
+    model = Model()
+    lyrics = generate(model)
+    print(lyrics)
