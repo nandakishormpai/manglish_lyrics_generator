@@ -19,9 +19,9 @@ function clearFunction(){
 
 
 function myFunction() {
+    document.getElementById("demo").innerHTML = x;
+    visible();
     axios.get("https://manglish-lyrics-generator.herokuapp.com/").then(response => {
-        document.getElementById("demo").innerHTML = x;
-        visible();
         console.log(response);
         x = response.data.lyrics;
     })
