@@ -1,21 +1,29 @@
+
+var x;
+axios.get("https://manglish-lyrics-generator.herokuapp.com/").then(response => {
+        console.log(response);
+        x = response.data.lyrics;
+})
+
 function visible(){
-    var x = document.getElementById("scroller");
-    x.style.display = "block";
+    var y = document.getElementById("scroller");
+    y.style.display = "block";
 }
 
 
 function clearFunction(){
-    var x = document.getElementById("scroller");
-    x.style.display = "none";
+    var y = document.getElementById("scroller");
+    y.style.display = "none";
 }
 
 
 
 function myFunction() {
     axios.get("https://manglish-lyrics-generator.herokuapp.com/").then(response => {
-        console.log(response);
+        document.getElementById("demo").innerHTML = x;
         visible();
-        document.getElementById("demo").innerHTML = response.data.lyrics;
+        console.log(response);
+        x = response.data.lyrics;
     })
     
 }
