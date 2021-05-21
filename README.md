@@ -1,7 +1,7 @@
 # Sithara song generator
   Our project submission to TinkerHub Build From Home || ML track
   
-  
+
   
   ## Built With ❤️ 
 
