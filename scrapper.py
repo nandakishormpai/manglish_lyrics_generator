@@ -3,6 +3,7 @@ import bs4
 import csv
 import os
 
+# Scraping song list into csv with corresponding lyrics link
 def build_csv():
     link = "https://www.malayalachalachithram.com/listsongs.php?tot=147&g=1414&p="
     with open("data/dataset.csv", "w") as ifile:
@@ -27,6 +28,7 @@ def build_csv():
         writer.writerows(csv_arr)
         ifile.close()
 
+# Using links from csv to scrape each lyrics
 def lyrics_scrap():
     with open("data/dataset.csv", "r") as ifile:
         reader = csv.reader(ifile)
@@ -42,8 +44,8 @@ def lyrics_scrap():
             row = next(iter(rows))
             cells = row.findAll('td')
             lyricsless = cells[0].findAll('script')
+            # Ignoring lyricless results
             if(lyricsless):
-                print(i,csv_row[2])
                 continue
             lyrics = (cells[0].getText())
             writer = (cells[0]).findAll('em')
@@ -53,10 +55,11 @@ def lyrics_scrap():
             text_file.write(lyrics)
             text_file.close()
 
+
+# Collecting Movie names that gave empty results while scraping lyrics
 def missed_movies():
     with open("data/dataset.csv", "r") as ifile:
         reader = csv.reader(ifile)
-        song_num=0
         links =[]
         text_file = open("data/missed_movies.txt", "w")
         for i,csv_row in enumerate(reader):
@@ -78,4 +81,4 @@ def missed_movies():
 
 
 if __name__ == "__main__":
-    missed_movies()
+    lyrics_scrap()
