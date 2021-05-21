@@ -26,13 +26,8 @@ class Dataset():
 
         self.sequence_length=100
 
-    
+    # Pre Processing and Returning a list of words from the lyrics dataset.
     def load_words(self):
-        """ Returns words [list] - list of words
-        Open the files in the dataset, and for each file read its contents, 
-        replace the endline with an ' <EOL> ' string and then split each 
-        words by space. These words are then returned in a list.
-        """
         files = os.listdir("data/lyrics")
         words = []
         for file in files:
@@ -50,6 +45,7 @@ class Dataset():
     def __len__(self):
         return len(self.words_indexes) - self.sequence_length
 
+    # Returning X,Y values on each iteration from the dataset
     def __getitem__(self, index):
         return (
             torch.tensor(self.words_indexes[index:index+self.sequence_length]),
