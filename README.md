@@ -1,4 +1,4 @@
-# Sithara song generator
+# 🎶 Sithara Song Generator 🎧
   Our project submission to TinkerHub Build From Home || ML track
   #### Manglish Lyrics Generator [Website](https://nandakishormpai.co/manglish_lyrics_generator/)
   
@@ -13,12 +13,12 @@
   - Transform request and response data
   - Cancel requests
   - Automatic transforms for JSON data
-## 2.api and js 
+## 2.API and js 
 - GET request is sent to the server hosted in Heroku at [api](https://manglish-lyrics-generator.herokuapp.com/)
-- axios in js file will load two api request at a time inorder to reduce the lag in the begining
+- axios in js file will load two api request at a time inorder to reduce the lag in the begining.
 ## 3.specials Fonts
- Expletus Sans
- Hind Guntur
+ - Expletus Sans
+ - Hind Guntur
 ## 4.Colors
 
   - ![#101d42](https://via.placeholder.com/15/101d42/000000?text=+) `#101d42`
