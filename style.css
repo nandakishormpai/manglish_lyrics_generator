@@ -72,9 +72,9 @@ body {
     }
 
     .description{
-        width: 50%;
-        margin-left: 25%;
-        margin-right: 25%;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
     .buttons{
 
@@ -183,7 +183,7 @@ body {
         margin-bottom: -1vh;
     }
     .description{
-        font-size: 4vw;
+        font-size: 3.7vw;
     }
 
     h2,.description{
