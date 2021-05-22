@@ -6,7 +6,9 @@ body {
     background: #d89fa5;;
     animation: mymove 10s linear infinite;
 }
-
+::-webkit-scrollbar {
+    display: none;
+}
 @keyframes mymove {
     0% {
         background-position: 0% 50%;
