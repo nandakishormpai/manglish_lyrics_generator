@@ -16,7 +16,7 @@
 ## 2.API and js 
 - GET request is sent to the server hosted in Heroku at [api](https://manglish-lyrics-generator.herokuapp.com/)
 - axios in js file will load two api request at a time inorder to reduce the lag in the begining.
-## 3.specials Fonts
+## 3.Specials Fonts
  - Expletus Sans
  - Hind Guntur
 ## 4.Colors
