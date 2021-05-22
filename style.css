@@ -7,6 +7,10 @@ body {
     animation: mymove 10s linear infinite;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 @keyframes mymove {
     0% {
         background-position: 0% 50%;
@@ -103,11 +107,11 @@ body {
         background-color: #1DB954;
         border: none;
         border-radius: 15px;
-        box-shadow: 3px 3px 20px rgba(3, 29, 23, 0.4);
+        box-shadow: 3px 3px 20px rgba(98, 165, 113, 0.4);
     }
     .button1:hover,
     .button2:hover {
-        box-shadow: 3px 3px 25px rgba(3, 29, 23, 0.4);
+        box-shadow: 3px 3px 25px rgba(98, 165, 113, 0.4);
     }
     .button1:active,
     .button2:active {
@@ -151,10 +155,10 @@ body {
         width: 8vw;
         margin-left: 2vw;
         border-radius: 100%;
-        box-shadow: 3px 3px 10px rgba(3, 29, 23, 0.5);
+        box-shadow: 3px 3px 10px rgba(98, 165, 113, 0.4)
     }
     .icon:hover {
-        box-shadow: 3px 3px 30px rgba(3, 29, 23, 0.5);
+        box-shadow: 3px 3px 30px rgba(98, 165, 113, 0.4)
     }
     h1,
     h2,
@@ -214,11 +218,11 @@ body {
         background-color: #1DB954;
         border: none;
         border-radius: 5vw;
-        box-shadow: 3px 3px 10px #1DB954;
+        box-shadow: 3px 3px 10px rgba(98, 165, 113, 0.4)
     }
     .button1:hover,
     .button2:hover {
-        box-shadow: 3px 3px 25px rgba(3, 29, 23, 0.4);
+        box-shadow: 3px 3px 25px rgba(98, 165, 113, 0.4);
     }
     .button1:active,
     .button2:active {
@@ -236,7 +240,7 @@ body {
         color: white;
         display: none;
         border-radius: 3vw;
-        box-shadow: -0.5vh 0.5vw rgba(18, 31, 75, 0.6);
+        box-shadow: -0.5vh 0.5vw rgba(6, 102, 27, 0.4)
     }
     .lyrics {
         line-height: 1.4;
