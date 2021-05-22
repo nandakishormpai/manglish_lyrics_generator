@@ -3,7 +3,7 @@ body {
     padding: 0;
     width: 100%;
     background-size: 400% 400%;
-    background: #1d1d1d;
+    background: #181717;
     animation: mymove 10s linear infinite;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 .scroller {
-    background-color: #727272;
+    background-color: #242424;
     color: white;
 }
 
@@ -95,7 +95,7 @@ body {
     .button2 {
         font-weight: 700;
         margin-right: 1.5vw;
-        padding: 7px;
+        padding: 6px;
         font-size: 1.6vw;
         cursor: pointer;
         text-align: center;
@@ -124,7 +124,7 @@ body {
         color: white;
         display: none;
         border-radius: 1vw;
-        box-shadow: -0.5vh 0.4vw #1DB954;
+        box-shadow: -0.5vh 0.4vw #2daa598f;
     }
     .lyrics {
         font-size: 1.4vw;
@@ -240,7 +240,7 @@ body {
         color: white;
         display: none;
         border-radius: 3vw;
-        box-shadow: -0.5vh 0.5vw rgba(6, 102, 27, 0.4)
+        box-shadow: -0.5vh 0.5vw #2daa598f;
     }
     .lyrics {
         line-height: 1.4;
