@@ -206,7 +206,7 @@ body {
         font-weight: 800;
         margin-right: 5%;
         margin-left: 5%;
-        padding: 4px;
+        padding: 6px;
         font-size: 4vw;
         cursor: pointer;
         text-align: center;
@@ -242,7 +242,7 @@ body {
         margin: auto;
         margin-top: 5vh;
         display: none;
-        border-radius: 1vw;
+        border-radius: 3vw;
         box-shadow: -0.5vh 0.5vw rgba(18, 31, 75,0.6);
     }
 
