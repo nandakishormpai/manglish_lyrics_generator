@@ -25,7 +25,5 @@
   - ![#fef9ff](https://via.placeholder.com/15/fef9ff/000000?text=+) `#fef9ff`
   - ![#d89fa5](https://via.placeholder.com/15/d89fa5/000000?text=+) `#d89fa5`
 
-# Devoloper
- <td align="center"><a href="https://github.com/aswinjayaji"><img src="https://avatars.githubusercontent.com/u/56126732?v=4" width="180px;" alt=""/><br /><sub><b>Aswin Jayaji<br />WEB DEV</b></sub></a><br />
 
 
