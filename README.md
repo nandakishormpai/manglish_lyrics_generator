@@ -46,6 +46,7 @@
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/nandakishormpai2001"><img src="https://avatars.githubusercontent.com/u/57388834?v=4" width="180px;" alt=""/><br /><sub><b>Nanda Kishor M Pai</b></sub></a><br />
-    <td align="center"><a href="https://github.com/aswinjayaji"><img src="https://avatars.githubusercontent.com/u/56126732?v=4" width="180px;" alt=""/><br /><sub><b>Ashwin Jayaji</b></sub></a><br />
-      <td align="center"><a href="https://github.com/Harikrishnan6336"><img src="https://avatars.githubusercontent.com/u/53964426?v=4" width="180px;" alt=""/><br /><sub><b>Hari Krishnan U</b></sub></a><br />
+    <td align="center"><a href="https://github.com/nandakishormpai2001"><img src="https://avatars.githubusercontent.com/u/57388834?v=4" width="180px;" alt=""/><br /><sub><b>Nanda Kishor M Pai<br />NLP Model, API,<br />Scrapping & Web Dev</b></sub></a><br />
+    <td align="center"><a href="https://github.com/aswinjayaji"><img src="https://avatars.githubusercontent.com/u/56126732?v=4" width="180px;" alt=""/><br /><sub><b>Ashwin Jayaji<br />Web Dev</b></sub></a><br />
+      <td align="center"><a href="https://github.com/Harikrishnan6336"><img src="https://avatars.githubusercontent.com/u/53964426?v=4" width="180px;" alt=""/><br /><sub><b>Hari Krishnan U<br />NLP Model</b></sub></a><br />
+
