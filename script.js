@@ -2,7 +2,7 @@ var x = "Generating...";
 
 // Globally calling so that We get a Lyrics ready for the user
 axios.get("https://manglish-lyrics-generator.herokuapp.com/").then(response => {
-        console.log("first");
+        console.log(response);
         x = response.data.lyrics;
 })
 
@@ -23,7 +23,7 @@ function myFunction() {
     axios.get("https://manglish-lyrics-generator.herokuapp.com/").then(response => {
         document.getElementById("demo").innerHTML = x;
         prev_lyrics = x;
-        console.log("second");
+        console.log(response);
         x = response.data.lyrics;
         if(prev_lyrics.localeCompare("Generating...")==0){
             document.getElementById("demo").innerHTML = x;
