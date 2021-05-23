@@ -15,12 +15,22 @@ BFH/recEHiCGthePHSlQQ/2021
 
 ## Link to product walkthrough
 [link to video]
+
 ## How it Works ?
 1. Explaining the working of project
 2. Embed video of project demo
+
 ## Libraries used
-Library Name - Version
+pandas - 1.2.4
+numpy - 1.20.3
+torch - 1.8.0+cpu
+matplotlib - 3.4.2
+flask - 2.0.0
+gunicorn - 20.1.0
+beautifulsoup4 - 4.9.3
+
 ## How to configure
 Instructions for setting up project
+
 ## How to Run
 Instructions for running
