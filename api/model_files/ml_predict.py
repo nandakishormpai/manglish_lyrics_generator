@@ -49,40 +49,39 @@ class Model(nn.Module):
 
 # to avoid gradients update
 @torch.no_grad()
-def generate(model,next_words=100):
-
+def generate(model,keyword,next_words=100):
     # loading lyrics corpus
     words_file = open("model_files/data/words.txt","r")
     words = words_file.read().split(" ")
 
     # randomly choosing 3 consecutive words from corpus of lyrics
     # for lyrics generation
-    while True:
-        n = random.randint(0,len(words))
-        text = " ".join(words[n:n+3])
-        if("<EOL>" not in text and "(" not in text and ")" not in text):
-            break
+    if (keyword not in words):
+        while True:
+            keyword = random.randint(0,len(words))
+            if("<EOL>" not in keyword and "(" not in keyword and ")" not in keyword):
+                break
 
     loaded_model = model
     loaded_model.load_state_dict(torch.load("model_files/manglish_model.pth"))
     loaded_model.eval()
-    words = text.split(' ')
+    words = []
+    words.append(keyword)
 
-    state_h, state_c = model.init_state(3)
+    state_h, state_c = model.init_state(1)
 
     # Loading dictionaries for word to index and vice versa 
     with open('model_files/data/word_to_index.json', 'rb') as wi:
         word_to_index = pickle.load(wi)
     with open('model_files/data/index_to_word.json', 'rb') as iw:
         index_to_word = pickle.load(iw)
-
     # for loop to generate lyrics with 100 words
     for i in range(0, next_words):
         x = torch.tensor([[word_to_index[w] for w in words[i:]]])
         y_pred, (state_h, state_c) = loaded_model(x, (state_h, state_c))
 
         last_word_logits = y_pred[0][-1]
-        p = torch.nn.functional.softmax(last_word_logits, dim=0).detach().numpy()
+        p = nn.functional.softmax(last_word_logits, dim=0).detach().numpy()
         word_index = np.random.choice(len(last_word_logits), p=p)
         words.append(index_to_word[word_index])
     
