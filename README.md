@@ -2,7 +2,7 @@
 
 # Sithara Song Generator 
 
-### A Manglish lyrics generator that generates manglish lyrics and form a song using AI. Our project downloads the manglish lyrics of Sithara songs from the internet and then trains an ML model that can generate new lyrics. A website based UI displays the generated lyrics. 
+### A Manglish lyrics generator that can give you Lyrics of a Malayalam Song that doesn't exist! in our favourite Manglish language. When User requests for one, API call is sent and pretrained model generates a lyrics and it is returned as response and displayed for you using JavaScript. 
 
 #### Data Collection
 
