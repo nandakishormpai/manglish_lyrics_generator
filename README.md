@@ -4,6 +4,8 @@
 
 ### A Manglish lyrics generator that can give you Lyrics of a Malayalam Song that doesn't exist! in our favourite Manglish language. When User requests for one, API call is sent and pretrained model generates a lyrics and it is returned as response and displayed for you using JavaScript. 
 
+### You can view the website [here](https://nandakishormpai.co/manglish_lyrics_generator/)
+
 <!-- #### Data Collection
 
 At First we scraped the lyrics(in manglish language) of Sitara songs from the internet. We used this [website](https://www.malayalachalachithram.com/listsongs.php?tot=147&g=1414&p=1) to scrape them and organized the lyrics in separate text files for training and validation. We used Beautiful Soup for web scraping. The source code regarding the same can be found in [scrapper](https://github.com/nandakishormpai2001/manglish_lyrics_generator/tree/main/scrapper) folder.
