@@ -77,7 +77,7 @@ Click the below image
 
 ## How to configure
 
-Inorder to run the project, load the python jupyter notebook found [here](https://github.com/nandakishormpai2001/manglish_lyrics_generator/blob/main/model/train_notebook/manglish_lyrics_generator.ipynb) in a Google Colab. Then upload the zip file found [here](https://github.com/nandakishormpai2001/manglish_lyrics_generator/blob/main/model/train_notebook/data.zip) into the Google Colab. The project is now configured and is ready for running.
+Inorder to train the model, load the python jupyter notebook found [here](https://github.com/nandakishormpai2001/manglish_lyrics_generator/blob/main/model/train_notebook/manglish_lyrics_generator.ipynb) in a Google Colab. Then upload the zip file found [here](https://github.com/nandakishormpai2001/manglish_lyrics_generator/blob/main/model/train_notebook/data.zip) into the Google Colab. The project is now configured and is ready for running.
 
 ## How to Run
 
