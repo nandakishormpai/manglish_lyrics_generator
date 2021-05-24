@@ -65,18 +65,9 @@ BFH/recEHiCGthePHSlQQ/2021
   - beautifulsoup4 - 4.9.3
 
 ## How to configure
-Instructions for setting up project
+
+Inorder to run the project, load the python jupyter notebook found [here](https://github.com/nandakishormpai2001/manglish_lyrics_generator/blob/main/model/train_notebook/manglish_lyrics_generator.ipynb) in a Google Colab. Then upload the zip file found [here](https://github.com/nandakishormpai2001/manglish_lyrics_generator/blob/main/model/train_notebook/data.zip) into the Google Colab. The project is now configured and is ready for running.
 
 ## How to Run
 
-👯 Clone the Repository:
-```https://github.com/nandakishormpai2001/manglish_lyrics_generator.git```
-
-Then move to the working directory.
-
-```cd manglish_lyrics_generator```
-
-First run the ```train.py``` .This will train the model and create a ML model `manglish_model.pth` in the `data` folder
-
-Then run the ```generate.py```.This will generate the lyrics.
-
+After configuring the project as told above, Run every single cell of the notebook in that order. Use the comments to understand when the model is training, validation and prediction script.
