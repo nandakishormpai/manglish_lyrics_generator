@@ -81,4 +81,6 @@ Inorder to train the model, load the python jupyter notebook found [here](https:
 
 ## How to Run
 
-After configuring the project as told above, Run every single cell of the notebook in that order. Use the comments to understand when the model is training, validation and prediction script.
+After configuring the project as above mentioned, Run cells of the notebook in chronological order and download the model after training. 
+
+To see the Live demo, try this [website](https://nandakishormpai.co/manglish_lyrics_generator/).
