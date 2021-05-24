@@ -4,7 +4,7 @@
 
 ### A Manglish lyrics generator that can give you Lyrics of a Malayalam Song that doesn't exist! in our favourite Manglish language. When User requests for one, API call is sent and pretrained model generates a lyrics and it is returned as response and displayed for you using JavaScript. 
 
-#### Data Collection
+<!-- #### Data Collection
 
 At First we scraped the lyrics(in manglish language) of Sitara songs from the internet. We used this [website](https://www.malayalachalachithram.com/listsongs.php?tot=147&g=1414&p=1) to scrape them and organized the lyrics in separate text files for training and validation. We used Beautiful Soup for web scraping. The source code regarding the same can be found in [scrapper](https://github.com/nandakishormpai2001/manglish_lyrics_generator/tree/main/scrapper) folder.
 
@@ -21,7 +21,7 @@ The source code regarding the model can be found in [model](https://github.com/n
 #### Website and API
 
 The backend was built on the micro-web framework Flask and it contains a function to handle GET request. The lyrics generation script and the model was used. The model was deployed onto Heroku after testing it locally. A website was built on  HTML, CSS, JS along with axios module for API request and response. Then the GET request is sent to the server hosted in Heroku at [api](https://manglish-lyrics-generator.herokuapp.com/.). The demo website is hosted in GitHub Pages and can be found [here](https://nandakishormpai.co/manglish_lyrics_generator/).
-
+ -->
 ## Team members
 1. [Nanda Kishor M Pai](https://github.com/nandakishormpai2001)
 2. [Aswin Jayaji](https://github.com/aswinjayaji)
@@ -37,8 +37,16 @@ BFH/recEHiCGthePHSlQQ/2021
 
 ## How it Works ?
 
-1. Explaining the working of project
-2. Embed video of project demo
+1. The project website can be found [here](https://nandakishormpai.co/manglish_lyrics_generator/). A song gets generated when the user clicks the `Generate Lyrics` button and the song gets cleared when the user presses the `Clear` button. The website was built using HTML, CSS and JS along with axios module for API request and response. On pressing the `Generate Lyrics` button, an API GET request gets called which returns the lyrics. The API is built on the micro-web framework Flask. The ML model along with the prediction script is incorporated into Flask and deployed onto Heroku after testing it locally. The api can be found [here](https://manglish-lyrics-generator.herokuapp.com/.). The source code regarding the api and website can be found in the [api](https://github.com/nandakishormpai2001/manglish_lyrics_generator/tree/main/api) and [frontend](https://github.com/nandakishormpai2001/manglish_lyrics_generator/tree/main/frontend) folders respectively.
+
+      The dataset collected was splitted into train and validation in the ratio 85:15.  Minimal Data Preprocessing was done on the collected dataset, as more would have result in the loss of song structure. A Deep Learning model with an architecture with an Embedding layer, LSTMs and fully connected layers were built using PyTorch and the dataset was trained on the model. We obtained a validation CrossEntropyLoss of `3.325`. Since the training was RAM intensive, it was carried out in Goole Colab and the jupyter notebook used for training and validation can be found [here](https://github.com/nandakishormpai2001/manglish_lyrics_generator/blob/main/model/train_notebook/manglish_lyrics_generator.ipynb). The Validation Loss, was found out and was compared with the number of epochs, using suitable plot diagrams drawn with matplotlib. Required Hypertuning of parameters was done by varying batch size, number of epochs and learning rate. The source code regarding the model can be found in [model](https://github.com/nandakishormpai2001/manglish_lyrics_generator/tree/main/model) folder.
+      
+      
+      For collecting the dataset, we scraped the lyrics(in manglish language) of Sitara songs from the internet. We used this [website](https://www.malayalachalachithram.com/listsongs.php?tot=147&g=1414&p=1) to scrape them and organized the lyrics in separate text files for training and validation. We used Beautiful Soup for web scraping. The source code regarding the same can be found in [scrapper](https://github.com/nandakishormpai2001/manglish_lyrics_generator/tree/main/scrapper) folder.
+      
+      
+
+3. Embed video of project demo
 
 ## Libraries used
 
