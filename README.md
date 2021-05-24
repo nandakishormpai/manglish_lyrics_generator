@@ -37,8 +37,7 @@ BFH/recEHiCGthePHSlQQ/2021
 ## Link to product walkthrough
 
 Click the below image
-
-<a href="https://drive.google.com/file/d/1yuChJ6B_Xx4VtguGs3tod4iI556RzEOZ/view?target=_blank"   title="Product Walkthrough" target="_blank" ><img src="https://github.com/nandakishormpai2001/manglish_lyrics_generator/blob/imgbot/walk.jpg" alt="Product Walkthrough" /></a>
+<a href="https://drive.google.com/file/d/1yuChJ6B_Xx4VtguGs3tod4iI556RzEOZ/view?usp=sharing"   title="Product Walkthrough" target="_blank" ><img src="https://github.com/nandakishormpai2001/manglish_lyrics_generator/blob/imgbot/walk.jpg" alt="Product Walkthrough" /></a>
 <!-- {% gdrive %} https://drive.google.com/file/d/1yuChJ6B_Xx4VtguGs3tod4iI556RzEOZ/view?usp=sharing {% gdrive %} -->
 
 ## How it Works ?
