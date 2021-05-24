@@ -35,7 +35,7 @@ The backend was built on the micro-web framework Flask and it contains a functio
 BFH/recEHiCGthePHSlQQ/2021
 
 ## Link to product walkthrough
-<iframe src="https://drive.google.com/file/d/1yuChJ6B_Xx4VtguGs3tod4iI556RzEOZ/preview" width="640" height="480"></iframe>
+{% gdrive %} https://drive.google.com/file/d/1yuChJ6B_Xx4VtguGs3tod4iI556RzEOZ/view?usp=sharing {% gdrive %}
 
 ## How it Works ?
 
@@ -48,7 +48,7 @@ BFH/recEHiCGthePHSlQQ/2021
       
       
 ## Live Demo
-2. <iframe src="https://drive.google.com/file/d/1gCWtwgyNxcLD44HN93TPg5_brlaXxbWy/preview" width="640" height="480"></iframe>
+2. {% gdrive %} https://drive.google.com/file/d/1gCWtwgyNxcLD44HN93TPg5_brlaXxbWy/view?usp=sharing {% gdrive %}
 
 ## Libraries used
       
