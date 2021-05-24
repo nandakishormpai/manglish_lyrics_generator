@@ -1,4 +1,15 @@
 var x = "Generating...";
+// function readkeyWord(){
+//     var keyword = document.getElementById("key");
+//     console.log(keyword);
+// }
+var keyword;
+
+function readkeyWord() {
+    var keyword = document.getElementById("myForm")
+    // document.getElementById("myForm").submit();
+    console.log(keyword);
+}
 
 function visible(){
     var y = document.getElementById("scroller");
@@ -10,10 +21,14 @@ function clearFunction(){
     y.style.display = "none";
 }
 
+
 function myFunction() {
     document.getElementById("demo").innerHTML = x;
     visible();
-    axios.get("https://manglish-lyrics-generator.herokuapp.com/").then(response => {
+    var elements = document.getElementById("myForm").elements;
+    keyword = elements[0].value;
+    console.log(keyword)
+    axios.post("https://manglish-lyrics-generator.herokuapp.com/",json = {"keyword": keyword} ).then(response => {
         console.log(response);
         document.getElementById("demo").innerHTML = response.data.lyrics;
     })    
