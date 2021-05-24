@@ -1,13 +1,15 @@
-from flask import Flask,jsonify
+from flask import Flask,jsonify,request
 from model_files.ml_predict import generate,Model
 
 
 app = Flask("manglish_lyrics_generation")
 
-@app.route('/', methods=['GET'])
+@app.route('/', methods=['POST'])
 def predict():
+    key_dict = request.get_json()
+    keyword = key_dict["keyword"]
     model = Model()
-    lyrics = generate(model)
+    lyrics = generate(model,keyword)
     response = {
         "lyrics": lyrics
     }
