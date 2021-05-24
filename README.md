@@ -35,7 +35,7 @@ The backend was built on the micro-web framework Flask and it contains a functio
 BFH/recEHiCGthePHSlQQ/2021
 
 ## Link to product walkthrough
-[link to video]
+<iframe src="https://drive.google.com/file/d/1yuChJ6B_Xx4VtguGs3tod4iI556RzEOZ/preview" width="640" height="480"></iframe>
 
 ## How it Works ?
 
@@ -47,10 +47,11 @@ BFH/recEHiCGthePHSlQQ/2021
       For collecting the dataset, we scraped the lyrics (in manglish) of Sitara songs from the internet. We used this [website](https://www.malayalachalachithram.com/listsongs.php?tot=147&g=1414&p=1) to scrape them and organized the lyrics in separate text files for training and validation. We used Beautiful Soup for web scraping. The source code regarding the same can be found in [scrapper](https://github.com/nandakishormpai2001/manglish_lyrics_generator/tree/main/scrapper) folder.
       
       
-
-3. Embed video of project demo
+## Live Demo
+2. <iframe src="https://drive.google.com/file/d/1gCWtwgyNxcLD44HN93TPg5_brlaXxbWy/preview" width="640" height="480"></iframe>
 
 ## Libraries used
+      
 
   - pandas - 1.2.4
 
