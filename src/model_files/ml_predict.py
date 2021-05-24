@@ -97,5 +97,5 @@ def generate(model,keyword,next_words=100):
 
 if __name__ == "__main__":
     model = Model()
-    lyrics = generate(model)
+    lyrics = generate(model,"Ishtam")
     print(lyrics)
