@@ -35,7 +35,12 @@ The backend was built on the micro-web framework Flask and it contains a functio
 BFH/recEHiCGthePHSlQQ/2021
 
 ## Link to product walkthrough
-{% gdrive %} https://drive.google.com/file/d/1yuChJ6B_Xx4VtguGs3tod4iI556RzEOZ/view?usp=sharing {% gdrive %}
+
+Click the below image
+
+<a href="https://drive.google.com/file/d/1yuChJ6B_Xx4VtguGs3tod4iI556RzEOZ/view?usp=sharing" title="Product Walkthrough"><img src="https://github.com/nandakishormpai2001/manglish_lyrics_generator/blob/imgbot/walk.jpg" alt="Product Walkthrough" /></a>
+
+<!-- {% gdrive %} https://drive.google.com/file/d/1yuChJ6B_Xx4VtguGs3tod4iI556RzEOZ/view?usp=sharing {% gdrive %} -->
 
 ## How it Works ?
 
@@ -48,7 +53,12 @@ BFH/recEHiCGthePHSlQQ/2021
       
       
 ## Live Demo
-2. {% gdrive %} https://drive.google.com/file/d/1gCWtwgyNxcLD44HN93TPg5_brlaXxbWy/view?usp=sharing {% gdrive %}
+
+Click the below image
+
+<a href="https://drive.google.com/file/d/1gCWtwgyNxcLD44HN93TPg5_brlaXxbWy/view?usp=sharing " title="Live Demo"><img src="https://github.com/nandakishormpai2001/manglish_lyrics_generator/blob/imgbot/demo.jpg" alt="Live Demo" /></a>
+
+<!-- {% gdrive %} https://drive.google.com/file/d/1gCWtwgyNxcLD44HN93TPg5_brlaXxbWy/view?usp=sharing {% gdrive %} -->
 
 ## Libraries used
       
