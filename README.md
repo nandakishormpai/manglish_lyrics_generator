@@ -77,7 +77,7 @@ Click the below image
 
 ## How to configure
 
-Inorder to train the model, load the python jupyter notebook found [here](https://colab.research.google.com/drive/1vgdj1Y2Vqwn8QgV4QOd0famMZbwp0Q9-?usp=sharing) in a Google Colab and make a copy of it. The project is now configured and is ready for running.
+Inorder to train the model, load the python jupyter notebook found [here](https://colab.research.google.com/drive/1vgdj1Y2Vqwn8QgV4QOd0famMZbwp0Q9-?usp=sharing) in a Google Colab and make a copy of it for your use.
 
 ## How to Run
 
