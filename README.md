@@ -4,7 +4,7 @@
 
 ### A Manglish lyrics generator that can give you Lyrics of a Malayalam Song that doesn't exist! in our favourite Manglish language. When User requests for one, API call is sent and pretrained model generates a lyrics and it is returned as response and displayed for you using JavaScript. 
 
-### You can view the website [here](https://nandakishormpai.co/manglish_lyrics_generator/)
+### You can visit the website [here](https://nandakishormpai.co/manglish_lyrics_generator/)
 
 <!-- #### Data Collection
 
