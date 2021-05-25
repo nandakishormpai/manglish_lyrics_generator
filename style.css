@@ -83,6 +83,19 @@ body {
         margin-right: 20%;
         color: white;
     }
+    .formkey {
+        margin-left: 40%;
+        margin-right:40%;
+        padding:12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+
+    }
+    .keyword {
+        height: 40px;
+        width:96%;
+        font-size: 20px;
+    }
     .buttons {
         display: flex;
         margin-left: 40%;
