@@ -30,6 +30,14 @@ function myFunction() {
     console.log(keyword)
     axios.post("https://manglish-lyrics-generator.herokuapp.com/", json = {"keyword": keyword} ).then(response => {
         console.log(response);
-        document.getElementById("demo").innerHTML = response.data.lyrics;
+        var failed = "Keyword not found";
+        if(response.data.lyrics.includes(failed)){
+            document.getElementById("myForm").reset();
+            alert(response.data.lyrics);
+        }
+        else{
+            document.getElementById("demo").innerHTML = response.data.lyrics;
+        }
+        
     })    
 }
