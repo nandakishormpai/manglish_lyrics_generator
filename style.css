@@ -94,6 +94,8 @@ body {
     .keyword {
         height: 40px;
         width:96%;
+        color: #ccc;
+        background-color: #353434;
         font-size: 20px;
     }
     .buttons {
@@ -207,6 +209,21 @@ body {
         margin-left: 10%;
         margin-right: 10%;
         color: white;
+    }
+    .formkey {
+        margin-left: 20%;
+        margin-right:20%;
+        padding:8px;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+
+    }
+    .keyword {
+        height: 15px;
+        width: 96%;
+        font-size: 20px;
+        color: #ccc;
+        background-color: #353434;
     }
     .buttons {
         display: flex;
