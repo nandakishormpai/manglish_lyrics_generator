@@ -58,7 +58,7 @@ def generate(model,keyword,next_words=100):
     if (keyword not in words):
         while True:
             n = random.randint(0,len(words))
-            message = "Keyword not found in dataset, try words like"+" ".join(words[n:n+3])
+            message = "Keyword not found in dataset. Try words like "+", ".join(words[n:n+3])
             if("<EOL>" not in message and "(" not in message and ")" not in message):
                 return message
 
