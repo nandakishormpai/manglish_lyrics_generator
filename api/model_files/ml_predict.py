@@ -54,13 +54,13 @@ def generate(model,keyword,next_words=100):
     words_file = open("model_files/data/words.txt","r")
     words = words_file.read().split(" ")
 
-    # randomly choosing 3 consecutive words from corpus of lyrics
-    # for lyrics generation
+    # returning failed message as keyword not in dataset
     if (keyword not in words):
         while True:
-            keyword = random.randint(0,len(words))
-            if("<EOL>" not in keyword and "(" not in keyword and ")" not in keyword):
-                break
+            n = random.randint(0,len(words))
+            message = "Keyword not found in dataset. Try words like "+", ".join(words[n:n+3])
+            if("<EOL>" not in message and "(" not in message and ")" not in message):
+                return message
 
     loaded_model = model
     loaded_model.load_state_dict(torch.load("model_files/manglish_model.pth"))
@@ -97,5 +97,5 @@ def generate(model,keyword,next_words=100):
 
 if __name__ == "__main__":
     model = Model()
-    lyrics = generate(model)
+    lyrics = generate(model,"Ishtam")
     print(lyrics)
