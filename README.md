@@ -37,7 +37,7 @@ BFH/recEHiCGthePHSlQQ/2021
 ## Link to product walkthrough
 
 #### Watch the video by clicking image below
-<a href="https://drive.google.com/file/d/1yuChJ6B_Xx4VtguGs3tod4iI556RzEOZ/view?usp=sharing"   title="Product Walkthrough" target="_blank" ><img src="https://github.com/nandakishormpai2001/manglish_lyrics_generator/blob/frontend/images/walk.jpg" alt="Product Walkthrough" /></a>
+<a href="https://drive.google.com/file/d/1cteVX54vOSFa_IBLUTDD8D-Gv_Gbrxrs/view?usp=sharing"   title="Product Walkthrough" target="_blank" ><img src="https://github.com/nandakishormpai2001/manglish_lyrics_generator/blob/frontend/images/walk.jpg" alt="Product Walkthrough" /></a>
 <!-- {% gdrive %} https://drive.google.com/file/d/1yuChJ6B_Xx4VtguGs3tod4iI556RzEOZ/view?usp=sharing {% gdrive %} -->
 
 ## How it Works ?
@@ -54,7 +54,7 @@ BFH/recEHiCGthePHSlQQ/2021
 
 #### Watch the video by clicking image below
 
-<a href="https://drive.google.com/file/d/1gCWtwgyNxcLD44HN93TPg5_brlaXxbWy/view?usp=sharing" target="_blank" title="Live Demo"><img src="https://github.com/nandakishormpai2001/manglish_lyrics_generator/blob/frontend/images/demo.jpg" alt="Live Demo" /></a>
+<a href="https://drive.google.com/file/d/1w-IKB_Y-XzD-j6aWmCgtVaDc14Omm8_n/view?usp=sharing" target="_blank" title="Live Demo"><img src="https://github.com/nandakishormpai2001/manglish_lyrics_generator/blob/frontend/images/demo.jpg" alt="Live Demo" /></a>
 
 <!-- {% gdrive %} https://drive.google.com/file/d/1gCWtwgyNxcLD44HN93TPg5_brlaXxbWy/view?usp=sharing {% gdrive %} -->
 
