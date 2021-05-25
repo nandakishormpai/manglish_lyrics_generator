@@ -95,7 +95,7 @@ body {
         height: 40px;
         width:96%;
         color: #ccc;
-        background-color: #353434;
+        background-color: #242424;
         font-size: 20px;
     }
     .buttons {
@@ -223,7 +223,7 @@ body {
         width: 96%;
         font-size: 20px;
         color: #ccc;
-        background-color: #353434;
+        background-color: #242424;
     }
     .buttons {
         display: flex;
