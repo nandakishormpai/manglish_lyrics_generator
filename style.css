@@ -84,8 +84,8 @@ body {
         color: white;
     }
     .formkey {
-        margin-left: 40%;
-        margin-right:40%;
+        margin-left: 38%;
+        margin-right:39.5%;
         padding:12px;
         border: 1px solid rgb(85, 84, 84);
         border-radius: 4px;
@@ -93,9 +93,10 @@ body {
     }
     .keyword {
         background-color: transparent;
-        height: 40px;
+        height: 20px;
         width:96%;
         color: #ccc;
+        border: none;
         font-size: 20px;
     }
     .buttons {
@@ -223,6 +224,7 @@ body {
         width: 96%;
         font-size: 20px;
         color: #ccc;
+        border: none;
         background-color: transparent;
     }
     .buttons {
