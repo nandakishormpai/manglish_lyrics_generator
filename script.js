@@ -28,7 +28,7 @@ function myFunction() {
     var elements = document.getElementById("myForm").elements;
     keyword = elements[0].value;
     console.log(keyword)
-    fetch("https://manglish-lyrics-generator.herokuapp.com/", { method : 'POST' , body: {"keyword": keyword}} ).then(response => {
+    axios.post("https://manglish-lyrics-generator.herokuapp.com/", json = {"keyword": keyword} ).then(response => {
         console.log(response);
         document.getElementById("demo").innerHTML = response.data.lyrics;
     })    
