@@ -87,15 +87,15 @@ body {
         margin-left: 40%;
         margin-right:40%;
         padding:12px;
-        border: 1px solid #ccc;
+        border: 1px solid rgb(85, 84, 84);
         border-radius: 4px;
 
     }
     .keyword {
+        background-color: transparent;
         height: 40px;
         width:96%;
         color: #ccc;
-        background-color: #242424;
         font-size: 20px;
     }
     .buttons {
@@ -223,7 +223,7 @@ body {
         width: 96%;
         font-size: 20px;
         color: #ccc;
-        background-color: #242424;
+        background-color: transparent;
     }
     .buttons {
         display: flex;
