@@ -99,6 +99,9 @@ body {
         border: none;
         font-size: 20px;
     }
+    .keyword:focus{
+            outline: none;
+    }
     .buttons {
         display: flex;
         margin-left: 40%;
@@ -226,7 +229,11 @@ body {
         color: #ccc;
         border: none;
         background-color: transparent;
+        
     }
+    .keyword:focus{
+        outline: none;
+}
     .buttons {
         display: flex;
         margin-left: 20%;
