@@ -1,9 +1,6 @@
 var x = "Generating...";
-// function readkeyWord(){
-//     var keyword = document.getElementById("key");
-//     console.log(keyword);
-// }
 var keyword;
+
 
 function readkeyWord() {
     var keyword = document.getElementById("myForm")
@@ -17,16 +14,24 @@ function visible(){
 }
 
 function clearFunction(){
+    document.getElementById("myForm").reset();
     var y = document.getElementById("scroller");
     y.style.display = "none";
 }
 
 
 function myFunction() {
-
     var elements = document.getElementById("myForm").elements;
-    if (elements[0].value != "" )
-        {
+    if(elements[0].value == "" )
+    {
+        alert("Enter a keyword !");
+    }
+    else if(elements[0].value.includes(" ") || elements[0].value.includes("(") 
+    || elements[0].value.includes(")")){
+        alert("Enter only one keyword !");
+        clearFunction();
+    }
+    else {
         document.getElementById("demo").innerHTML = x;
         visible();
         keyword = elements[0].value;
@@ -35,7 +40,6 @@ function myFunction() {
             console.log(response);
             var failed = "Keyword not found";
             if(response.data.lyrics.includes(failed)){
-                document.getElementById("myForm").reset();
                 clearFunction();
                 alert(response.data.lyrics);
             }
@@ -45,8 +49,5 @@ function myFunction() {
 
         })
     }
-    else
-    {
-        alert("Enter a keyword !");
-    }
+    
 }

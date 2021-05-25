@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    
     <title>Manglish Lyrics Generator</title>
   </head>
 
@@ -29,12 +29,12 @@
         </p>
         <a id="result">
         <div class="formkey"> 
-          <form id="myForm">
-               <input class="keyword" type="text"  name="fname" placeholder="Enter a keyword" autocomplete="off" /><br />
+          <form id="myForm" onsubmit="return false;">
+              <input class="keyword" id="keyword" type="text"  name="fname" placeholder="Enter a keyword" autocomplete="off" /><br />
             </form>
         </div>
           <div class="buttons">
-            <button class="button1" onclick="myFunction()">
+            <button class="button1" id="generate" onclick="myFunction()">
               Generate Lyrics
             </button>
             <button class="button2" onClick="clearFunction()">clear</button>
@@ -68,5 +68,8 @@
         </a>
       </div>
     </footer>
+
+    <script type="text/javascript" src="script.js"></script>
   </body>
+
 </html>
