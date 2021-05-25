@@ -1,13 +1,6 @@
 var x = "Generating...";
 var keyword;
 
-
-function readkeyWord() {
-    var keyword = document.getElementById("myForm")
-    // document.getElementById("myForm").submit();
-    console.log(keyword);
-}
-
 function visible(){
     var y = document.getElementById("scroller");
     y.style.display = "block";
