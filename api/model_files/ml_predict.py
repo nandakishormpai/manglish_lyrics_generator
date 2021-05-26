@@ -49,33 +49,33 @@ class Model(nn.Module):
 
 # to avoid gradients update
 @torch.no_grad()
-def generate(model,keyword,next_words=100):
+def generate(model,keywords,next_words=100):
     # loading lyrics corpus
     words_file = open("model_files/data/words.txt","r")
     words = words_file.read().split(" ")
 
     # returning failed message as keyword not in dataset
-    if (keyword not in words):
-        while True:
-            n = random.randint(0,len(words))
-            message = "Keyword not found in dataset. Try words like "+", ".join(words[n:n+3])
-            if("<EOL>" not in message and "(" not in message and ")" not in message):
-                return message
+    for keyword in keywords.split(" "):
+        if (keyword not in words):
+            while True:
+                n = random.randint(0,len(words))
+                message = '"'+keyword+'" Keyword not found in dataset. Try words like '+", ".join(words[n:n+3])
+                if("<EOL>" not in message and "(" not in message and ")" not in message):
+                    return message
 
     loaded_model = model
     loaded_model.load_state_dict(torch.load("model_files/manglish_model.pth"))
     loaded_model.eval()
-    words = []
-    words.append(keyword)
+    words = keywords.split(" ")
 
-    state_h, state_c = model.init_state(1)
+    state_h, state_c = model.init_state(len(words))
 
     # Loading dictionaries for word to index and vice versa 
     with open('model_files/data/word_to_index.json', 'rb') as wi:
         word_to_index = pickle.load(wi)
     with open('model_files/data/index_to_word.json', 'rb') as iw:
         index_to_word = pickle.load(iw)
-    # for loop to generate lyrics with 100 words
+    # for loop to generate lyrics
     for i in range(0, next_words):
         x = torch.tensor([[word_to_index[w] for w in words[i:]]])
         y_pred, (state_h, state_c) = loaded_model(x, (state_h, state_c))
@@ -85,6 +85,7 @@ def generate(model,keyword,next_words=100):
         word_index = np.random.choice(len(last_word_logits), p=p)
         words.append(index_to_word[word_index])
     
+    print(len(words),words[50],words[100])
     lyrics = " ".join(words)
     # formatting the lyrics
     lyrics = lyrics.replace(" <EOL> ","\n")
