@@ -16,7 +16,7 @@ function clearFunction() {
 function myFunction() {
     var elements = document.getElementById("myForm").elements;
     if (elements[0].value == "") {
-        alert("Enter a keyword !");
+        alert("Enter one or More Manglish words !");
     } else if (elements[0].value.includes("(") ||
         elements[0].value.includes(")")) {
         alert("Enter only Manglish keywords !");
