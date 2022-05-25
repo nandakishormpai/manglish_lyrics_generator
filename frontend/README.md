@@ -1,12 +1,12 @@
 # 🎶 Sithara Song Generator 🎧
   Our project submission to TinkerHub Build From Home || ML track
-  #### Manglish Lyrics Generator [Website](https://nandakishormpai.co/manglish_lyrics_generator/)
+  #### Manglish Lyrics Generator [Website](https://nmpai.tech/manglish_lyrics_generator/)
   
 # frontend 
 
 - A simple website made with html css and js 
 - on pressing generate lyrics button will generate random malayalam song lyrics 
-- links of all the contributors are included in the [Website](https://nandakishormpai.co/manglish_lyrics_generator/)
+- links of all the contributors are included in the [Website](https://nmpai.tech/manglish_lyrics_generator/)
 ## 1.Modules 
 - ### axios is used for api calls 
   - Intercept request and response
