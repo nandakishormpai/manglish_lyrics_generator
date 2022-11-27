@@ -26,7 +26,7 @@ function myFunction() {
         visible();
         keyword = elements[0].value;
         console.log(keyword)
-        axios.post("https://manglish-lyrics-generator.herokuapp.com/", json = { "keyword": keyword }).then(response => {
+        axios.post("https://manglish-lyrics-generator.onrender.com", json = { "keyword": keyword }).then(response => {
             console.log(response);
             var failed = "Keyword not found";
             if (response.data.lyrics.includes(failed)) {
