@@ -19,7 +19,7 @@ BFH/recEHiCGthePHSlQQ/2021
 ## Link to product walkthrough
 
 #### Watch the video by clicking image below
-<a href="https://drive.google.com/file/d/1cteVX54vOSFa_IBLUTDD8D-Gv_Gbrxrs/view?usp=sharing"   title="Product Walkthrough" target="_blank" ><img src="https://github.com/nandakishormpai2001/manglish_lyrics_generator/blob/frontend/images/walk.jpg" alt="Product Walkthrough" /></a>
+<a href="https://drive.google.com/file/d/1dyza9QJX4pIjJ70teZgucXCIEqNmUxt2/view?usp=sharing"   title="Product Walkthrough" target="_blank" ><img src="frontend/images/sithara_walkthrough.JPG" alt="Product Walkthrough" /></a>
 <!-- {% gdrive %} https://drive.google.com/file/d/1yuChJ6B_Xx4VtguGs3tod4iI556RzEOZ/view?usp=sharing {% gdrive %} -->
 
 ## How it Works ?
